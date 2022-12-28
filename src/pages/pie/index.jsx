@@ -1,7 +1,7 @@
 import React from "react";
 
-const Line = () => {
-  return <div>Line</div>;
+const Pie = () => {
+  return <div>Pie</div>;
 };
 
-export default Line;
+export default Pie;
