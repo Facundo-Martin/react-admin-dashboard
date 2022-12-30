@@ -5,7 +5,7 @@ const PageWrapper = ({ pageTitle, pageSubtitle, children }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   return (
-    <Box display="flex" justifyContent="space-between" p={2}>
+    <Box p={2}>
       <Box mb="30px">
         <Typography
           variant="h2"
