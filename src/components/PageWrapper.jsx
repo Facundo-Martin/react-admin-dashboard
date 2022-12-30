@@ -19,7 +19,7 @@ const PageWrapper = ({ pageTitle, pageSubtitle, children }) => {
           {pageSubtitle || "New Subtitle"}
         </Typography>
       </Box>
-      {children}
+      {children || "Start adding content..."}
     </Box>
   );
 };
