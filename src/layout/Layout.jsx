@@ -1,12 +1,13 @@
+import { Box } from "@mui/material";
 import React from "react";
 import Sidebar from "./Sidebar";
 import Topbar from "./Topbar";
 
 const Layout = ({ children }) => {
   return (
-    <div className="flex">
+    <div style={{ display: "flex", width: "100%" }}>
       <Sidebar />
-      <div>
+      <div style={{ width: "100%" }}>
         <Topbar />
         <main>{children}</main>
       </div>
