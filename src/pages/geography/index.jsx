@@ -1,7 +1,15 @@
-import React from "react";
+import { Box } from "@mui/material";
+import GeoChart from "../../components/GeoChart";
+import PageWrapper from "../../components/PageWrapper";
 
-const Geography = () => {
-  return <div>Geography</div>;
+const Geo = () => {
+  return (
+    <PageWrapper pageTitle="Geo Chart" pageSubtitle="Simple Geo Chart">
+      <Box height="75vh">
+        <GeoChart />
+      </Box>
+    </PageWrapper>
+  );
 };
 
-export default Geography;
+export default Geo;
