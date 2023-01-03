@@ -1,15 +1,24 @@
-import { Box } from "@mui/material";
+import { Box, useTheme } from "@mui/material";
 import GeoChart from "../../components/GeoChart";
+import { tokens } from "../../theme";
 import PageWrapper from "../../components/PageWrapper";
 
-const Geo = () => {
+
+const Geography = () => {
+  const theme = useTheme();
+  const colors = tokens(theme.palette.mode);
   return (
-    <PageWrapper pageTitle="Geo Chart" pageSubtitle="Simple Geo Chart">
-      <Box height="75vh">
+      <PageWrapper pageTitle="Geography" pageSubtitle="Simple Geography Chart">
+
+      <Box
+        height="75vh"
+        border={`1px solid ${colors.grey[100]}`}
+        borderRadius="4px"
+      >
         <GeoChart />
       </Box>
     </PageWrapper>
   );
 };
 
-export default Geo;
+export default Geography;
