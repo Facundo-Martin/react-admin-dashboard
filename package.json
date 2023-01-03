@@ -5,6 +5,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@fullcalendar/react": "^6.0.2",
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.11.2",
     "@mui/x-data-grid": "^5.17.17",
@@ -19,8 +20,8 @@
     "fullcalendar": "^6.0.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.6.1",
     "react-pro-sidebar": "^0.7.1",
+    "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
     "yup": "^0.32.11"
