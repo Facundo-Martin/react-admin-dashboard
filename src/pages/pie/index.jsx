@@ -1,7 +1,15 @@
-import React from "react";
+import { Box } from "@mui/material";
+import PieChart from "../../components/PieChart";
+import PageWrapper from "../../components/PageWrapper";
 
 const Pie = () => {
-  return <div>Pie</div>;
+  return (
+    <PageWrapper pageTitle="Pie Chart" pageSubtitle="Simple Pie Chart">
+      <Box height="75vh">
+        <PieChart />
+      </Box>
+    </PageWrapper>
+  );
 };
 
 export default Pie;
